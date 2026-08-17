@@ -1,0 +1,78 @@
+[
+  {
+    "Algorithm": "N-gram Language Model",
+    "Approach": "Statistical Language Model (N-gram)",
+    "Model Type": "Unsupervised Statistical Model",
+    "Accuracy": 100.0,
+    "Training Time": 0.582991361618042,
+    "Pros": [
+      "No training data required",
+      "Works with context",
+      "Fast inference",
+      "Good for rare words"
+    ],
+    "Cons": [
+      "Requires large corpus",
+      "Limited by corpus quality",
+      "Memory intensive",
+      "May miss domain-specific terms"
+    ]
+  },
+  {
+    "Algorithm": "Logistic Regression",
+    "Approach": "Supervised ML - Logistic Regression",
+    "Model Type": "Supervised Machine Learning",
+    "Accuracy": 2.941176470588235,
+    "Training Time": 0.0554506778717041,
+    "Pros": [
+      "Fast training",
+      "Probabilistic output",
+      "Less prone to overfitting",
+      "Interpretable coefficients"
+    ],
+    "Cons": [
+      "Linear assumptions",
+      "Requires feature engineering",
+      "Limited complexity",
+      "May underfit complex patterns"
+    ]
+  },
+  {
+    "Algorithm": "Decision Tree",
+    "Approach": "Supervised ML - Decision Tree",
+    "Model Type": "Supervised Machine Learning",
+    "Accuracy": 23.52941176470588,
+    "Training Time": 0.015372753143310547,
+    "Pros": [
+      "Easy to interpret",
+      "Handles non-linear patterns",
+      "No assumptions about data",
+      "Fast prediction"
+    ],
+    "Cons": [
+      "Prone to overfitting",
+      "Unstable to small changes",
+      "Biased toward features with many levels",
+      "Limited expressiveness"
+    ]
+  },
+  {
+    "Algorithm": "Random Forest",
+    "Approach": "Supervised ML - Random Forest",
+    "Model Type": "Supervised Machine Learning",
+    "Accuracy": 20.588235294117645,
+    "Training Time": 0.1569669246673584,
+    "Pros": [
+      "Reduces overfitting",
+      "Handles missing values",
+      "Feature importance ranking",
+      "Works with mixed data types"
+    ],
+    "Cons": [
+      "Less interpretable",
+      "More memory intensive",
+      "Slower training",
+      "Can still overfit with noise"
+    ]
+  }
+]
